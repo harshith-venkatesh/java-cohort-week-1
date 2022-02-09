@@ -4,17 +4,17 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DictionaryWord {
-    private String word;
+    private String value;
 
     public DictionaryWord() {
-        this.word = "Initial Word";
+        this.value = "Initial Word";
     }
 
     public String getWord() {
-        return word;
+        return value;
     }
 
     public void setWord(String word) {
-        this.word = word;
+        this.value = word;
     }
 }
